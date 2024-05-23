@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  border: 10px solid #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top_section h1 {
+  font-size: 50px;
+}
+
+.top_section p {
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-align: end;
+}
+
+.container figure img {
+  border-radius: 100%;
+}
+
+.container figure img {
+  width: 300px;
+  height: auto;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.about h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.biography {
+  margin: 30px 0px;
+}
+
+.biography h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.biography ul {
+  margin-left: 50px;
+}
+
+.biography li {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 50px 0px;
+}
+
+footer p {
+  text-align: end;
+}
